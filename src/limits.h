@@ -11,12 +11,12 @@
 /* These can be safely changed if they are too small or too large */
 
 #define MAX_IMAGE_NAME    127
-#define MAX_IMAGES        20000
+#define MAX_IMAGES        400000
 #define MAX_DIRS          128
 #define MIN_ATLAS_WIDTH   64
 #define MIN_ATLAS_HEIGHT  64
-#define MAX_ATLAS_WIDTH   8192
-#define MAX_ATLAS_HEIGHT  8192
+#define MAX_ATLAS_WIDTH   16384
+#define MAX_ATLAS_HEIGHT  16384
 #define MAX_FONT_SIZE     (1024 * 1024 * 16)
 
 #endif
